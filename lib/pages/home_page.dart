@@ -42,6 +42,7 @@ class MyHomePage extends StatelessWidget {
                         Text("Bienvenidos",
                           style: TextStyle(
                           fontFamily: "dancingScript",
+                          fontWeight: FontWeight.w900,
                           color: Colors.green,
                           fontSize: 45
                         ),
