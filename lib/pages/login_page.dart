@@ -17,7 +17,13 @@ class Login extends StatelessWidget {
               style: TextStyle(fontSize: 20),
               textAlign: TextAlign.end,
             ),
-            actions: [],
+            actions: [
+
+            ],
+            shape: RoundedRectangleBorder(
+              borderRadius: 
+                BorderRadius.only(bottomLeft: Radius.circular(150))
+            ),
           ),
         ),
         body: ListView(
